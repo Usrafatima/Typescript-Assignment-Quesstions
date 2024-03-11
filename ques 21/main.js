@@ -1,11 +1,6 @@
-var list = [
-    { name: "Japan" },
-    { name: "Germany" },
-    { name: "Dubai" },
-    { name: "china" },
-    { name: "Austrlia" },
-    { name: "New Zealend" },
-    { name: "Palestine" },
-    { name: "Kuwait" },
-];
-console.log(list);
+var person = {
+    name: "Yusra",
+    age: 19,
+    isStudent: true
+};
+console.log("Person Info: ".concat(person.name, " is ").concat(person.age, " years old. Is ").concat(person.name, " a student? ").concat(person.isStudent ? 'Yes' : 'No', "."));
